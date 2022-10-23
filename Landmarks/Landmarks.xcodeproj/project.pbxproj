@@ -34,6 +34,7 @@
 		337FB93529059968006C5776 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FB93129059968006C5776 /* HikeGraph.swift */; };
 		337FB93629059968006C5776 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FB93229059968006C5776 /* HikeDetail.swift */; };
 		337FB93729059968006C5776 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FB93329059968006C5776 /* HikeView.swift */; };
+		337FB93A29059BD7006C5776 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FB93929059BD7006C5776 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		337FB93129059968006C5776 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		337FB93229059968006C5776 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		337FB93329059968006C5776 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		337FB93929059BD7006C5776 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		337FB91229057DBB006C5776 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				337FB93829059BC9006C5776 /* Categories */,
 				337FB92F29059968006C5776 /* Hikes */,
 				337FB8E028F0FA9F006C5776 /* ContentView.swift */,
 				337FB91529057E6B006C5776 /* LandmarkRow.swift */,
@@ -234,6 +237,14 @@
 			);
 			name = Hikes;
 			path = ../../../AnimatingViewsAndTransitions/Resources/Hikes;
+			sourceTree = "<group>";
+		};
+		337FB93829059BC9006C5776 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				337FB93929059BD7006C5776 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				337FB8E128F0FA9F006C5776 /* ContentView.swift in Sources */,
+				337FB93A29059BD7006C5776 /* CategoryHome.swift in Sources */,
 				337FB93529059968006C5776 /* HikeGraph.swift in Sources */,
 				337FB92729059726006C5776 /* Badge.swift in Sources */,
 				337FB90B28F0FEE2006C5776 /* MapView.swift in Sources */,
